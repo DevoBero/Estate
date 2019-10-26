@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title> Bereonwu David. O || A Front End Developer.</title>
+    <meta name="theme-color" content="#1988e0" />
+   
+    <meta
+      name="keywords"
+      content="Web design, html, css, Bereonwu, David, O, Web Developer"
+    />
+
+    <meta
+      name="description"
+      content="Bereonwu David.0 @ DevoBero. DevoBero is a young innovative Front End developer with the knowledge of HTML, CSS, JS including frameworks like  bootstrap etc."
+    />
+
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+
+    <!-- ============OTHER CSS============ -->
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <link rel="stylesheet"type="text/css"href="/bostrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/os.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+
+    <!-- ==========SCRIPTS======= -->
+    <script src="/scrolls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="/jquery.min.js"></script>
+
+    <!-- =======BOOTSTRAP JS======== -->
+    <script src="/boostrap.js"></script>
+    <script src="/hover.js"></script>
+    <script src="/query.js"></script>
+    <script src="/os.js"></script>
+    <!-- ========BOOTSTRAP JS===== -->
+
+    <script>
+      function getCookie(e) {
+        for (
+          var t = e + "=",
+            n = decodeURIComponent(document.cookie).split(";"),
+            o = 0;
+          o < n.length;
+          o++
+        ) {
+          for (var i = n[o]; " " == i.charAt(0); ) i = i.substring(1);
+          if (0 == i.indexOf(t)) return i.substring(t.length, i.length);
+        }
+        return "";
+      }
+      getCookie("hostinger") &&
+        ((document.cookie =
+          "hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;"),
+        location.reload());
+      var notification = document.getElementsByClassName(
+          "notice notice-success is-dismissible"
+        ),
+        hostingerLogo = document.getElementsByClassName("hlogo"),
+        mainContent = document.getElementsByClassName("notice_content")[0],
+        newList = [
+          "Powerful and Easy-To-Use Control Panel.",
+          "1-Click Auto Installer and 24/7 Live Support.",
+          "Free Domain, Email and SSL Bundle.",
+          "5x faster WordPress performance",
+          "Weekly Backups and Fast Response Time."
+        ];
+      if (notification.length > 0 && null != mainContent) {
+        var googleFont = document.createElement("link");
+        (googleFontHref = document.createAttribute("href")),
+          (googleFontRel = document.createAttribute("rel")),
+          (googleFontHref.value =
+            "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"),
+          (googleFontRel.value = "stylesheet"),
+          googleFont.setAttributeNode(googleFontHref),
+          googleFont.setAttributeNode(googleFontRel);
+        var css =
+            "@media only screen and (max-width: 768px) {.web-hosting-90-off-image-wrapper {position: absolute;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} .web-hosting-90-off-image-wrapper {padding: 0 5%}} .content-wrapper {z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{border: 0; border-radius: 3px; background-color: #ff123a !important; padding: 15px 55px !important; margin-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",
+          style = document.createElement("style"),
+          sheet = window.document.styleSheets[0];
+        style.styleSheet
+          ? (style.styleSheet.cssText = css)
+          : style.appendChild(document.createTextNode(css)),
+          document.getElementsByTagName("head")[0].appendChild(style),
+          document.getElementsByTagName("head")[0].appendChild(googleFont);
+        var button = document.getElementsByClassName("upgrade_button_red")[0],
+          link = button.parentElement;
+        link.setAttribute(
+          "href",
+          "https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"
+        ),
+          (link.innerHTML =
+            '<button class="upgrade_button_red_sale">TRANSFER NOW</button>'),
+          (notification = notification[0]).setAttribute(
+            "style",
+            "padding-bottom: 10px; padding-top: 5px; background-image: url(https://cdn.000webhost.com/000webhost/promotions/springsale/mountains-neon-background.jpg); background-color: #000000; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-color: #ff123a; border-width: 8px;"
+          ),
+          (notification.className = "notice notice-error is-dismissible"),
+          (hostingerLogo = hostingerLogo[0]).setAttribute(
+            "src",
+            "https://cdn.000webhost.com/000webhost/promotions/springsale/logo-hostinger-white.svg"
+          ),
+          hostingerLogo.setAttribute(
+            "style",
+            "float: none !important; height: auto; max-width: 100%; margin: 40px 20px 10px 30px;"
+          );
+        var h1Tag = notification.getElementsByTagName("H1")[0];
+        h1Tag.remove();
+        var paragraph = notification.getElementsByTagName("p")[0];
+        (paragraph.innerHTML =
+          "Fast & Secure Web Hosting. <br>Limited time offer: get an SSL certificate for FREE"),
+          paragraph.setAttribute(
+            "style",
+            'max-width: 600px; margin-left: 30px; font-family: "Open Sans", sans-serif; font-size: 16px; font-weight: 600;'
+          );
+        var list = notification.getElementsByTagName("UL")[0];
+        list.setAttribute("style", "max-width: 675px;");
+        for (
+          var listElements = list.getElementsByTagName("LI"), i = 0;
+          i < newList.length;
+          i++
+        )
+          listElements[i].setAttribute(
+            "style",
+            "color:#ffffff; list-style-type: disc; margin-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 300; line-height: 1.5;"
+          ),
+            (listElements[i].innerHTML = newList[i]);
+        listElements[listElements.length - 1].remove();
+        var org_html = mainContent.innerHTML,
+          new_html =
+            '<div class="content-wrapper">' +
+            mainContent.innerHTML +
+            '</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/springsale/web-hosting-90-off.png"></div>';
+        mainContent.innerHTML = new_html;
+        var saleImage = mainContent.getElementsByClassName(
+          "web-hosting-90-off-image"
+        )[0];
+      }
+    </script>
+
+    <script>
+      function getCookie(e) {
+        for (
+          var t = e + "=",
+            n = decodeURIComponent(document.cookie).split(";"),
+            o = 0;
+          o < n.length;
+          o++
+        ) {
+          for (var i = n[o]; " " == i.charAt(0); ) i = i.substring(1);
+          if (0 == i.indexOf(t)) return i.substring(t.length, i.length);
+        }
+        return "";
+      }
+      getCookie("hostinger") &&
+        ((document.cookie =
+          "hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;"),
+        location.reload());
+      var notification = document.getElementsByClassName(
+          "notice notice-success is-dismissible"
+        ),
+        hostingerLogo = document.getElementsByClassName("hlogo"),
+        mainContent = document.getElementsByClassName("notice_content")[0],
+        newList = [
+          "Powerful and Easy-To-Use Control Panel.",
+          "1-Click Auto Installer and 24/7 Live Support.",
+          "Free Domain, Email and SSL Bundle.",
+          "5x faster WordPress performance",
+          "Weekly Backups and Fast Response Time."
+        ];
+      if (notification.length > 0 && null != mainContent) {
+        var googleFont = document.createElement("link");
+        (googleFontHref = document.createAttribute("href")),
+          (googleFontRel = document.createAttribute("rel")),
+          (googleFontHref.value =
+            "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"),
+          (googleFontRel.value = "stylesheet"),
+          googleFont.setAttributeNode(googleFontHref),
+          googleFont.setAttributeNode(googleFontRel);
+        var css =
+            "@media only screen and (max-width: 768px) {.web-hosting-90-off-image-wrapper {position: absolute;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} .web-hosting-90-off-image-wrapper {padding: 0 5%}} .content-wrapper {z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{border: 0; border-radius: 3px; background-color: #ff123a !important; padding: 15px 55px !important; margin-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",
+          style = document.createElement("style"),
+          sheet = window.document.styleSheets[0];
+        style.styleSheet
+          ? (style.styleSheet.cssText = css)
+          : style.appendChild(document.createTextNode(css)),
+          document.getElementsByTagName("head")[0].appendChild(style),
+          document.getElementsByTagName("head")[0].appendChild(googleFont);
+        var button = document.getElementsByClassName("upgrade_button_red")[0],
+          link = button.parentElement;
+        link.setAttribute(
+          "href",
+          "https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"
+        ),
+          (link.innerHTML =
+            '<button class="upgrade_button_red_sale">TRANSFER NOW</button>'),
+          (notification = notification[0]).setAttribute(
+            "style",
+            "padding-bottom: 10px; padding-top: 5px; background-image: url(https://cdn.000webhost.com/000webhost/promotions/springsale/mountains-neon-background.jpg); background-color: #000000; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-color: #ff123a; border-width: 8px;"
+          ),
+          (notification.className = "notice notice-error is-dismissible"),
+          (hostingerLogo = hostingerLogo[0]).setAttribute(
+            "src",
+            "https://cdn.000webhost.com/000webhost/promotions/springsale/logo-hostinger-white.svg"
+          ),
+          hostingerLogo.setAttribute(
+            "style",
+            "float: none !important; height: auto; max-width: 100%; margin: 40px 20px 10px 30px;"
+          );
+        var h1Tag = notification.getElementsByTagName("H1")[0];
+        h1Tag.remove();
+        var paragraph = notification.getElementsByTagName("p")[0];
+        (paragraph.innerHTML =
+          "Fast & Secure Web Hosting. <br>Limited time offer: get an SSL certificate for FREE"),
+          paragraph.setAttribute(
+            "style",
+            'max-width: 600px; margin-left: 30px; font-family: "Open Sans", sans-serif; font-size: 16px; font-weight: 600;'
+          );
+        var list = notification.getElementsByTagName("UL")[0];
+        list.setAttribute("style", "max-width: 675px;");
+        for (
+          var listElements = list.getElementsByTagName("LI"), i = 0;
+          i < newList.length;
+          i++
+        )
+          listElements[i].setAttribute(
+            "style",
+            "color:#ffffff; list-style-type: disc; margin-left: 30px; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 300; line-height: 1.5;"
+          ),
+            (listElements[i].innerHTML = newList[i]);
+        listElements[listElements.length - 1].remove();
+        var org_html = mainContent.innerHTML,
+          new_html =
+            '<div class="content-wrapper">' +
+            mainContent.innerHTML +
+            '</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/springsale/web-hosting-90-off.png"></div>';
+        mainContent.innerHTML = new_html;
+        var saleImage = mainContent.getElementsByClassName(
+          "web-hosting-90-off-image"
+        )[0];
+      }
+    </script>
+  </head>
+  <body data-aos-easing="ease-out-back" data-aos-delay="0">
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Main Nav Control -->
+
+    <div class="background">
+      <div class="opacity">
+        <!-- =================================NAV BAR================================== -->
+        <nav class="navbar navbar-fixed-top bg-primary">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false"
+              >
+                <i class="fa fa-bars"> </i>
+              </button>
+              <a class="navbar-brand" href="Devo.html"><span style="color:#f3410c">TONIMAS-</span>homedesign</div>
+
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div
+                <li>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"> 
+                      <a href="Devo.html"  target="blank"class="home">HOME <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li>
+                      <li><a href="about.html" target="blank"class="about">ABOUT</a></li>
+                      <li><a href="#contact">CONTACT</a></li>
+                      <li><a href="#chat">CONNECT</a></li>
+                      </li>
+                      <li>
+                        <a href="Register.html"  target="blank"class="register">Register</a>
+                      </li>
+                      <li>
+                        <a href="Login.html"  target="blank"class="login">LOGIN</a>
+                      </li>
+                    </li>
+                  </ul>
+                </li>
+            </div>
+          </div>
+          </nav>
+
+        <!-- =================================NAV BAR ENDS================================== -->
+        <div class="container-fluid">
+          <div class="row top resize">
+            <div class="col-md-3 hov1">
+          </div>
+          <div class="col-md-4 hov3">
+          </div>
+          <div class="col-md-3">
+            </div>
+          </div>
+        </div>
+
+        <!-- =======INTRO HERE========= -->
+        <div class="jumbotron inherit">
+          <div class="container-fluid inherit">
+            <p class="first_intro">
+            <span style="color:#d62cc8">TURN YOUR HOME TO BUITIFUL PARADISE.</span>
+            </p>
+            <div
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
+              <p class="second_intro">
+                <span style="color: rgb(255, 232, 22)">The Best Home Designer in Town!!</span> 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==========SECOND VIEW================== -->
+
+    <div class="jumbotron" id="about">
+      <div class="container-fluid">
+        <h2>Hi there! Nice to meet you.</h2>
+
+        <p class="foot">Tonymass home-design limited.</p>
+        <p class="foot">
+          FLOWERING PLANTING | LANDSCAPING | TYLING | INTERLOCKING | STAMPING INTERLOCKING
+        </p>
+
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4"><div class="border"></div></div>
+          <div class="col-md-4"></div>
+        </div>
+
+        <div class="row top resize">
+          <div class="col-md-3 hov1">
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="900"
+            >
+              <img src="/image/1.jpg" />
+              <img src="/image/house1.jpg" />
+            </div>
+          </div>
+
+          <div class="col-md-3 hov2">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="linear"
+              data-aos-duration="1300"
+            >
+              <img src="/image/2.jpg" />
+              <img src="/image/3.jpg" />
+            </div>
+          </div>
+
+          <div class="col-md-3 hov3">
+            <div
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="2000"
+            >
+              <img src="/image/4.jpg" />
+              <img src="/image/5.jpg" />
+            </div>
+          </div>
+
+          <div class="col-md-3 hov4">
+            <div
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="1700"
+            >
+              <img src="/image/6.jpg" />
+              <img src="/image/house3.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="site-section" style="background-color:">
+      <div class="container">
+        <div class="text-center">
+          <h2>Our Organisation <br>and Workers Opinion.</h2>
+          <p class="lead">Incorporating a raised flower bed in your yard allows your blossoms to take 
+            center stage as the main focal point, since they stretch taller than the surrounding plant life. 
+            Providing ample drainage and less root competition, the bed's walls do not need to be typical landscape 
+            timbers providing a rustic appearance. Interlocking rock walls form a unique aesthetic, based on the stone sizes and hues.
+          </p>
+          <p class="lead">Unlike concrete block walls, you do not need to add rebar or other supportive posts into the interlocking rock wall. 
+            Rebar use usually requires pouring concrete into your wall structure to hold the metal posts. 
+            The interlocking strategy uses a mixture of large, medium and small rocks to form a structural mesh so that concrete and rebar are not necessary.
+          </p>
+        </div>
+        <section class="school-features text-dark d-flex">
+
+        <div class="media d-block feature text-center col-md-4">
+          <img src="/image/5.jpg" >
+          <div class="media-body">
+            <h3 class="mt-0">Devo </h3>
+            <p class="instructor-meta">TM/SPEAKER</p>
+            <p>ToniMashall Home Design is the <br> best Home Design we can speak off.</p>
+          </div>
+        </div>
+
+        <div class="media d-block feature text-center col-md-4">
+          <img src="image/5.jpg" alt="Image placeholder" class="mb-3">
+          <div class="media-body">
+            <h3 class="mt-0">Obigadi O.</h3>
+            <p class="instructor-meta">TM/Founder</p>
+            <p>ToniMashall Home Design is the <br> best Home Design we can speak off.</p>
+          </div>
+        </div>
+
+        <div class="media d-block feature text-center col-md-4">
+          <img src="image/5.jpg" alt="Image placeholder" class="mb-3">
+          <div class="media-body">
+            <h3 class="mt-0">Boo.</h3>
+            <p class="instructor-meta">TM/Staff.</p>
+            <p>ToniMashall Home Design is the <br> best Home Design we can speak off.</p>
+          </div>
+        </div>
+
+        <div class="media d-block feature text-center col-md-4">
+          <img src="image/5.jpg" alt="Image placeholder" class="mb-3">
+          <div class="media-body">
+            <h3 class="mt-0">TG</h3>
+            <p class="instructor-meta">TM/HRM</p>
+            <p>ToniMashall Home Design is the <br> best Home Design we can speak off.</p>
+          </div>
+        </div>
+
+        <div class="media d-block feature text-center col-md-4">
+          <img src="image/5.jpg" alt="Image placeholder" class="mb-3">
+          <div class="media-body">
+            <h3 class="mt-0">ANTHONY</h3>
+            <p class="instructor-meta">TM/GM</p>
+            <p>ToniMashall Home Design is the <br> best Home Design we can speak off.</p>
+          </div>
+        </div>
+
+        <div class="media d-block feature text-center col-md-4">
+          <img src="image/5.jpg" class="mb-3">
+          <div class="media-body">
+            <h3 class="mt-0">GG</h3>
+            <p class="instructor-meta">Branch/MG</p>
+            <p>ToniMashall Home Design is the <br> best Home Design we can speak off.</p>
+          </div>
+        </div>
+
+        <div class="media d-block feature text-center col-md-4">
+          <img src="image/5.jpg" alt="Image placeholder" class="mb-3">
+          <div class="media-body">
+            <h3 class="mt-0">Femi</h3>
+            <p class="instructor-meta">TM/Staff</p>
+            <p>ToniMashall Home Design is the <br> best Home Design we can speak off.</p>
+          </div>
+        </div>
+
+        <div class="media d-block feature text-center col-md-4">
+          <img src="image/5.jpg" alt="Image placeholder" class="mb-3">
+          <div class="media-body">
+            <h3 class="mt-0">Edu</h3>
+            <p class="instructor-meta">TM/Staff</p>
+            <p>ToniMashall Home Design is the <br> best Home Design we can speak off.</p>
+          </div>
+        </div>
+
+        <div class="media d-block feature text-center col-md-4">
+          <img src="image/5.jpg" alt="Image placeholder" class="mb-3">
+          <div class="media-body">
+            <h3 class="mt-0">Ebuka</h3>
+            <p class="instructor-meta">TM/Staff.</p>
+            <p>ToniMashall Home Design is the <br> best Home Design we can speak off.</p>
+          </div>
+        </div>
+        </section>
+      </div>
+    </section>
+
+    <div class="jumbotron" id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <div class="col-md-4 one">
+
+              <i class="fa fa-home"></i>
+              <h2>HEAD-OFFICE</h2>
+              <address>
+              UMUALAOMA, ALAIKE VILLAGE,<br/>
+              IDEATOR NORH,<br/>
+              IMO-state.<br />
+                Nigeria.<br />
+              </address>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <div class="col-md-4 two">
+              <i class="fa fa-building"></i>
+              <h2>BRANCH</h2>
+              <address>
+                5, Okpuno Awka Anambra.<br />
+                Anambra-state.<br />
+                Nigeria.<br />
+              </address>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <div class="col-md-4 three">
+              <i class="fa fa-spinner fa fa-spin"></i>
+              <h2>OTHERS</h2>
+              <abbr title="Phone"><span class="fa fa-phone"></span></abbr>
+              +(234) 90-9519-5449 <br />
+              <span class="fa fa-envelope"></span>bendavidosondu@gmail.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- third view ends here -->
+
+    <div class="jumbotron chat" id="chat">
+        <div class="container-fluid">
+          <h2 class="blink">YOUR-CONFORTABLE-HOME!!!</h2>
+          <p class="zoom">
+            Interested in geeting the best home to live.
+          </p>
+            
+          <button
+            type="button"
+            class="btn btn-primary"
+            id="this"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            WELCOME!
+          </button>
+  
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title navbar-brand" id="exampleModalLongTitle">
+                    YOUR-CONFORTABLE-HOME!!!
+                  </h5>
+                </div>
+                <div class="modal-body">
+                  <h4 style="font-family:cursive; font-weight:bold">
+                    THANKS FOR TAKING TIME TO REACH US! 
+                    <br> WE OFFER YOU THE BEST 
+                    <br> CONFORT HOME.
+                  </h4>
+                </div>
+                <hr />
+                <div class="modal-footer">
+                  <button type="button" class="btn ok" data-dismiss="modal">
+                    OK
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+    <div class="footborder"></div>
+    <div class="footer">
+      <p>
+        &copy Bereonwu David Osondu 2019 -
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+    </div>
+
+    
+  </body>
+</html>
